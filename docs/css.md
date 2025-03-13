@@ -15,16 +15,28 @@ padding은 요소 내의 내부 여백을, margin을 요소와 요소 외부와�
 하지만 padding과 margin에서의 em은 부모요소의 font-size를 상속받는것이 아닌, 자기 자신의 font-size를 따라간다는 점을 새롭게 알게됐다.
 
 가령,
-![em: padding & margin_1](./../assets/image-2.png)
+![em: padding & margin_1](./assets/image-2.png)
 위와 같은 코드에서 inner의 font-size는 1rem이다. 즉 루트요소의 font-size를 따로 지정하지 않았기에 16px이 되고, padding과 margin 또한 16px이 된다.
 
 하지만 아래의 경우
-![em: padding & margin_2](./../assets/image-3.png)
+![em: padding & margin_2](./assets/image-3.png)
 inner의 font-size는 1em으로 부모의 font-size: 32px을 상속받는다. 이로 인해 inner의 font-size이 32px가 되고, padding과 margin 또한 32px이 된다.
 
-## vw와 vh, vmin과 vmax
+## vw와 vh
 
-v는 view port, 즉 화면 / w과 h는 각각 width(넓이), height(높이)를 의미한다. 고정단위인 px은 화면의 넓이,높이의 변화에 관계없이 고정되어 반응형 웹을
-구현하기엔 부적절하다. 이를 보완하기 위해 화면 넓이에 따라 가변적인 vw와 vh를 사용한다.
+# v는 view port, 즉 화면 / w과 h는 각각 width(넓이), height(높이)를 의미한다. 고정단위인 px은 화면의 넓이,높이의 변화에 관계없이 고정되어 반응형 웹을
+
+# 구현하기엔 부적절하다. 이를 보완하기 위해 화면 넓이에 따라 가변적인 vw와 vh를 사용한다.
 
 100vw 는 화면넓이의 100프로를, 1vw는 화면넓이의 100분의 1을 의미하는데, 단위 앞에 붙은 숫자를 백분율이라 생각하면 빠를거같다.
+그렇다면 50vw는?
+
+![50vw_1](./assets/50vw-1.png) ![50vw_2](./assets/50vw-2.png)
+
+화면의 절반을 차지하고, 화면 넓이가 줄어들면 줄어드는대로 절반을 차지하며 font-size가 줄어든다.
+
+# vh도 마찬가지
+
+![50vh_1](./assets/image.png) ![50vh_2](./assets/image-1.png)
+
+
