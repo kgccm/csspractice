@@ -2,12 +2,12 @@
 
 ## 1em 이란 부모 font-size의 값이다. 기본적으로 16px이며, 부모 font-size가 24px 일 경우 1em은 24px, 2em은 48px이 된다.
 
-![em : 부모 font-size의 값](./../assets/image.png)
+![em : 부모 font-size의 값](./assets/image-2.png)
 
 ## 1rem 이란 html의 font-size의 값이다. 기본적으로 16px이며, html태그 내에 font-size를 따로 지정할 경우 해당 size를 상속받는다.
 
 16px일 때(default)를 기준으로 2rem은 32px가 되는 구조이다.
-![rem : html문서의 font-size 값값](./../assets/image-1.png)
+![rem : html문서의 font-size 값값](./assets/image-3.png)
 
 ## 새롭게 알게 된 사실
 
@@ -38,5 +38,3 @@ inner의 font-size는 1em으로 부모의 font-size: 32px을 상속받는다. �
 # vh도 마찬가지
 
 ![50vh_1](./assets/image.png) ![50vh_2](./assets/image-1.png)
-
-
