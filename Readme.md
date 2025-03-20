@@ -7,3 +7,5 @@
 [가변 레이아웃] ([./docs/layout.md](https://github.com/kgccm/csspractice/blob/main/docs/layout.md))
 
 [미디어 쿼리] ([./docs/mediaQuery.md](https://github.com/kgccm/csspractice/blob/main/docs/mediaQuery.md))
+
+[가변 이미지] ([./docs/image.md](https://github.com/kgccm/csspractice/blob/main/docs/image.md))
