@@ -9,3 +9,5 @@
 [미디어 쿼리] ([./docs/mediaQuery.md](https://github.com/kgccm/csspractice/blob/main/docs/mediaQuery.md))
 
 [가변 이미지] ([./docs/image.md](https://github.com/kgccm/csspractice/blob/main/docs/image.md))
+
+[가변 동영상] ([./docs/video.md](https://github.com/kgccm/csspractice/blob/main/docs/video.md))
